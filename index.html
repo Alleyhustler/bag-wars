@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bag Wars - May the Bags Be With You</title>
+    <title>Exit Wars - May the Exits Be With You</title>
     <script src="https://cdn.jsdelivr.net/npm/firebase@9.22.2/firebase-app-compat.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/firebase@9.22.2/firebase-firestore-compat.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
@@ -936,6 +936,13 @@
             gap: 1rem;
         }
         
+                .logo-imgs {
+            height: 400px;
+            width: auto;
+            filter: drop-shadow(0 0 10px rgba(47, 48, 48, 0.7));
+            transition: all 0.3s ease;
+            margin-bottom: 40px;
+        }
         .logo-img {
             height: 80px;
             width: auto;
@@ -967,8 +974,9 @@
 <body>
     <!-- Star Wars Intro Effect -->
 <div class="star-wars-intro" style="animation: introFade 0.8s ease-in-out;">
-
-        <h1>BAG WARS</h1>
+    <div class="logo-containers">
+        <img src="Testo del paragrafo.png" alt="Bag Wars Logo" class="logo-imgs">
+    </div>
         <p>A long time ago in a blockchain far, far away...</p>
     </div>
 
@@ -985,12 +993,12 @@
     <!-- Star Wars Crawl Container (hidden by default) -->
     <div class="star-wars-crawl">
         <div class="crawl-content">
-            <div class="crawl-title">BAG WARS</div>
+            <div class="crawl-title">Exit WARS</div>
             <div class="crawl-text">
                 <p>Episode IV</p>
-                <p>A NEW HOPE FOR BAGHOLDERS</p>
+                <p>A NEW HOPE FOR ExitHOLDERS</p>
                 <br>
-                <p>It is a period of civil war. Rebel bagholders, striking from hidden wallets, have won their first victory against the evil Paperhand Empire.</p>
+                <p>It is a period of civil war. Rebel Exitholders, striking from hidden wallets, have won their first victory against the evil Paperhand Empire.</p>
                 <br>
                 <p>During the battle, Rebel spies managed to steal secret plans to the Empire's ultimate weapon, the DEATH STAR, a space station with enough selling pressure to destroy an entire token's price action.</p>
                 <br>
@@ -1007,11 +1015,11 @@
     
     <div class="header-right">
         <div class="current-round">ROUND #<span id="current-round">1</span></div>
-        <a href="https://x.com/bagwarssolana" class="twitter-link" target="_blank">
+        <a href="https://x.com/Exitwars" class="twitter-link" target="_blank">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#1DA1F2">
                 <path d="M22.46 6.012a8.58 8.58 0 0 1-2.466.676 4.305 4.305 0 0 0 1.886-2.374 8.591 8.591 0 0 1-2.725 1.041 4.292 4.292 0 0 0-7.313 3.914 12.18 12.18 0 0 1-8.846-4.483 4.286 4.286 0 0 0 1.328 5.728 4.27 4.27 0 0 1-1.943-.537v.054a4.293 4.293 0 0 0 3.442 4.208 4.305 4.305 0 0 1-1.938.073 4.296 4.296 0 0 0 4.01 2.98 8.614 8.614 0 0 1-5.33 1.838c-.347 0-.687-.02-1.02-.059a12.15 12.15 0 0 0 6.574 1.927c7.883 0 12.2-6.54 12.2-12.2 0-.186-.004-.371-.012-.555a8.72 8.72 0 0 0 2.152-2.23z"/>
             </svg>
-            <span>@bagwarssolana</span>
+            <span>@Exitwars</span>
         </a>
     </div>
 </header>
@@ -1107,7 +1115,7 @@
                 </div>
                 
                 <div id="battle-phase" class="hidden">
-                    <p>Vote for the weakest bag holder to eliminate them!</p>
+                    <p>Vote for the weakest Exit holder to eliminate them!</p>
                     <div class="participant-list" id="battle-participants">
                         <!-- Participants will be added here dynamically -->
                     </div>
@@ -1143,7 +1151,7 @@
                     <li>Buy the memecoin (contract: TBA)</li>
                     <li>Wait for entry phase to open</li>
                     <li>Submit your wallet address and TX proof</li>
-                    <li>Defend your bag during battle phase</li>
+                    <li>Defend your Exit during battle phase</li>
                     <li>Eliminate weaker holders to survive</li>
                 </ol>
 
